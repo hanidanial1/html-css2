@@ -1,0 +1,238 @@
+.row2 {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url(/leaf.jpg);
+  background-size: cover;
+  height: fit-content;
+  background-color: #00000001;
+  height: 100vh;
+  align-content: center;
+  display: flex;
+  width: 100%;
+  height: auto;
+
+  justify-content: space-around;
+
+}
+
+#eco {
+  color: rgb(106, 195, 106);
+  font-weight: 500;
+}
+
+/* left side  */
+.maintext {
+  width: 40%;
+}
+
+.h3main {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: black;
+  font-size: 2.2em;
+  margin-left: 10%;
+  padding: 0.4em;
+  width: fit-content;
+  justify-content: center;
+
+}
+
+.pmain {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: black;
+  font-size: 1.2em;
+  margin-left: 10%;
+  padding: 10px;
+  width: fit-content;
+}
+
+
+/* right main */
+.inputs {
+  display: flex;
+  flex-direction: column;
+  margin: 2em;
+  width: 30%;
+  text-align: center;
+  background-color: white;
+  padding: 2em;
+
+}
+
+
+#fname {
+
+  width: 100%;
+}
+
+#email {
+
+
+  width: 100%;
+}
+
+#inputbtn {
+
+  background-color: rgb(9, 172, 94);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  padding: 1em;
+
+}
+
+.row3 {
+  display: flex;
+  justify-content: center;
+
+}
+
+/* 3rd paragraph (container2)*/
+#sec-2 {
+  font-size: 3em;
+  display: block;
+  width: 100%;
+  text-align: center;
+
+}
+
+.row3 {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.logobar {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding: 10px;
+  vertical-align: middle;
+  color: white;
+  font-size: 18px;
+  margin: 0 15 0 15;
+}
+
+#ecogoogle {
+  color: white;
+  font: 24px;
+}
+
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  
+
+
+
+  }
+
+  .img1 {
+    justify-content: center;
+    width: 50%;
+    height: 40%;
+    border-radius: 50%;
+
+  }
+
+  .row2 {
+    flex: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    
+  }
+
+  .h3main {
+    flex: 100%;
+    max-width: 100%;
+    
+    font-size: 20px;
+  }
+  .pmain{
+    font-size: 18px;
+    margin-right: 5%;
+  }
+  .container {
+    flex: 100%;
+    max-width: 100%;
+    text-align: start;
+  }
+
+  .row2 {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .maintext {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .inputs {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .logobar {
+    flex: 100%;
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .iconlogo {
+    flex: 100%;
+    width: 100%;
+  }
+
+
+}
+
+.img1 {
+  justify-content: center;
+  width: 50%;
+  height: 40%;
+  border-radius: 50%;
+
+}
+
+.row4 {
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(211, 204, 183);
+
+}
+
+
+.row5 {
+  margin: 2em;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+#border1 {
+  width: 1px;
+  border: 1px solid;
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+  background-color: black;
+}
